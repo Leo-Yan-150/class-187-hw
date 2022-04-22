@@ -67,7 +67,7 @@ def startEncryption():
     file_name_entry = Entry(encryption_window, font = 'arial 15')
     file_name_entry.place(relx=0.38,rely=0.15, anchor=CENTER)
     
-    btn_create = Button(encryption_window, text="Create", font = 'arial 13', command="saveData")
+    btn_create = Button(encryption_window, text="Create", font = 'arial 13', command=saveData)
     btn_create.place(relx=0.75,rely=0.15, anchor=CENTER)
     
     encryption_text_data = Text(encryption_window, height=20, width=72)
